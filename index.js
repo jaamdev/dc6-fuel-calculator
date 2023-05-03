@@ -180,11 +180,14 @@ function getRpmBmep(torque, altura){
 
 function getTime(torque, distancia, altura, peso){
 	const { tas } = getSpeed(torque, altura, peso)
-	const timeArray = (distancia / tas).toFixed(3).split(".")
-	const hours = Number(timeArray[0])
-	const minutes = Number((timeArray[1] * 60).toString().substring(0, 2))
+	const timeArray = (distancia / tas).toFixed(2).split(".")
+	const hours = timeArray[0]
+	const minutes = String(Math.trunc(("0." + timeArray[1]) * 60))
+	let hh = "", mm = ""
+	hours < 10 ? hh = "0" + hours : hh = hours
+	minutes < 10 ? mm = "0" + minutes : mm = minutes
 
-	return results = { hours , minutes }
+	return { hours: hh, minutes: mm }
 }
 
 function setResult(results){
