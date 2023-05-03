@@ -1,0 +1,318 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: consolas ,sans-serif;
+}
+
+:root {
+	--color-primary: #007dd1;
+}
+
+body {
+	color: #fff;
+	background-color: #000;
+}
+
+.alert_ctn {
+	width: 100%;
+	background-color: #bb0000;
+}
+
+.alert_ctn h4 {
+	color: #fff;
+	font-size: 2em;
+	letter-spacing: 0.1rem;
+	font-weight: lighter;
+}
+
+header {
+	width: 100%;
+}
+
+h1 {
+	width: 100%;
+	padding-top: 0.5rem;
+}
+
+h2 {
+	width: 100%;
+	font-weight: lighter;
+}
+
+main {
+	width: 100%;
+	padding: 1rem;
+}
+
+form {
+	width: 100%;
+	padding: 1rem 2rem;
+	background-color: var(--color-primary);
+	border-radius: 0.2rem;
+	font-size: 1.4em;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+form fieldset {
+	width: 100%;
+	border: 0 transparent;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	justify-content: center;
+	align-items: center;
+}
+
+label,
+span {
+	width: 100%;
+}
+
+input,
+select {
+	width: 100%;
+	padding: 0.5rem;
+	font-size: inherit;
+	color: black;
+	background-color: #fff;
+	border: none;
+	border-radius: 0.2rem;
+	outline: transparent;
+}
+
+.buttons_ctn {
+	width: 100%;
+	margin-top: 1rem;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+.buttons_ctn button {
+	padding: 0.5rem 1rem;
+	color: #fff;
+	background-color: #00afaf;
+	font-size: inherit;
+	border: transparent;
+	border-radius: 0.2rem;
+	cursor: pointer;
+	transition: background-color 300ms;
+}
+
+.buttons_ctn button:hover {
+	background-color: #009292;
+}
+
+.buttons_ctn button[type="reset"] {
+	background-color: #7c0000;
+}
+
+.buttons_ctn button[type="reset"]:hover {
+	color: #fff;
+	background-color: #610000;
+}
+
+option:disabled{
+	color: #fff;
+	background-color: #f00;
+}
+
+.error {
+	margin: 1rem auto;
+	padding: 0.5rem 1rem;
+	color: #fff;
+	background-color: transparent;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	border-radius: 0.2rem;
+}
+
+.error.active {
+	background-color: #f00;
+	animation: error 2s infinite;
+}
+
+.error.success {
+	background-color: green;
+}
+
+@keyframes error {
+	0% {
+		background-color: #f00;
+	}
+	50% {
+		background-color: #610000;
+	}
+	100% {background-color: #f00;}
+}
+
+.results_ctn {
+	width: 100%;
+	font-size: 1.4em;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.5rem;
+}
+
+article {
+	padding: 0.5rem;
+	background-color: var(--color-primary);
+	border-radius: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: var(--color-primary);
+	font-size: 1.4em;
+	letter-spacing: 0.1rem;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+svg {
+	width: 3rem;
+	height: 3rem;
+	fill: #181717;
+	transition: fill 200ms;
+}
+
+@media (min-width:1000px) {
+
+	.results_ctn {
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+	article:nth-child(1) {
+		order: 1;
+	}
+
+	article:nth-child(2) {
+		order: 3;
+	}
+
+	article:nth-child(3) {
+		order: 2;
+	}
+
+	article:nth-child(4) {
+		order: 4;
+	}
+
+	article:nth-child(5) {
+		order: 6;
+		grid-column: span 5;
+	}
+
+	article:nth-child(6) {
+		order: 5;
+	}
+}
+
+@media (max-width:720px) {
+
+	.alert_ctn {
+		padding: 0.2rem 0;
+	}
+
+	.alert_ctn h4 {
+		letter-spacing: 0;
+		font-weight: normal;
+	}
+
+	form fieldset {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media (max-width:550px) {
+
+	.alert_ctn h4 {
+		font-size: 1.4em;
+	}
+
+	main {
+		padding: 0;
+	}
+
+	form {
+		margin-top: 0.5rem;
+		padding: 1rem;
+		border-radius: 0;
+		gap: 1rem;
+	}
+
+	form fieldset {
+		padding: 0.5rem 1rem;
+		border: 0.15rem solid #fff;
+		grid-template-columns: 1fr;
+		gap: 0.5rem;
+	}
+
+	.buttons_ctn {
+		margin: 0;
+		padding: 1rem;
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+
+	button:nth-child(1) {
+		order: 1;
+	}
+
+	button:nth-child(2) {
+		order: 4;
+	}
+
+	button:nth-child(3) {
+		order: 2;
+	}
+
+	button:nth-child(4) {
+		order: 3;
+	}
+
+	.results_ctn {
+		margin-bottom: 1rem;
+		padding: 0 0.5rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+
+	article:nth-child(1) {
+		order: 3;
+	}
+
+	article:nth-child(2) {
+		order: 1;
+	}
+
+	article:nth-child(3) {
+		order: 4;
+	}
+
+	article:nth-child(4) {
+		order: 5;
+	}
+
+	article:nth-child(5) {
+		order: 2;
+	}
+
+	article:nth-child(6) {
+		order: 6;
+	}
+}

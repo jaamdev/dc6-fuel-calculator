@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>DC6 - Calculadora de Fuel</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <section class="alert_ctn" >
+      <h4>FOR SIMULATOR USE ONLY</h4>
+    </section>
+    <header>
+      <h1>Calculadora</h1>
+      <h2>PMDG - DC6</h2>
+    </header>
+    <main>
+      <form autocomplete="off">
+        <fieldset>
+          <label for="torque">Torquemeter Horsepower:</label>
+          <select id="torque" name="torque">
+            <option value="th1240">1240</option>
+            <option value="th1200">1200</option>
+            <option selected value="th1100">1100</option>
+            <option disabled value="th1000">1000</option>
+          </select>
+          <span>BHP</span>
+        </fieldset>
+        <fieldset>
+          <label for="distancia">Distancia:</label>
+          <input
+            id="distancia"
+            name="distancia"
+            type="number"
+            placeholder="1200"
+          />
+          <span>Millas N.</span>
+        </fieldset>
+        <fieldset>
+          <label for="altura">Altura:</label>
+          <select id="altura" name="altura">
+            <option value="21">21000</option>
+            <option value="20">20000</option>
+            <option value="19">19000</option>
+            <option value="18">18000</option>
+            <option value="17">17000</option>
+            <option value="16">16000</option>
+            <option value="15">15000</option>
+            <option value="14">14000</option>
+            <option value="13">13000</option>
+            <option value="12">12000</option>
+            <option value="11">11000</option>
+            <option value="10">10000</option>
+            <option selected value="9">9000</option>
+            <option value="8">8000</option>
+            <option value="7">7000</option>
+            <option value="6">6000</option>
+            <option value="5">5000</option>
+            <option value="4">4000</option>
+            <option value="3">3000</option>
+            <option value="2">2000</option>
+            <option value="1">1000</option>
+            <option value="0">0</option>
+          </select>
+          <span>Pies</span>
+        </fieldset>
+        <fieldset>
+          <label for="peso">Peso:</label>
+          <input
+            id="peso"
+            name="peso"
+            type="number"
+            min="67500"
+            max="97200"
+            placeholder="67500"
+          />
+          <span>Libras</span>
+        </fieldset>
+        <fieldset>
+          <label for="alternativo">Alternativo:</label>
+          <input
+            id="alternativo"
+            name="alternativo"
+            type="number"
+            placeholder="100"
+          />
+          <span>Millas N.</span>
+        </fieldset>
+        <fieldset>
+          <label for="reserva">Reserva:</label>
+          <select id="reserva" name="reserva">
+            <option value="2">2h</option>
+            <option value="1.5">1h:30m</option>
+            <option value="1">1h</option>
+            <option selected value="0.75">0:45m</option>
+            <option value="0.5">0h:30m</option>
+            <option value="0.25">0h:15m</option>
+            <option value="0">Sin reserva</option>
+          </select>
+          <span>Horas</span>
+        </fieldset>
+        <fieldset class="buttons_ctn">
+          <button type="submit">Calcular</button>
+          <button type="reset">Limpiar</button>
+          <button type="button">Guardar</button>
+          <button type="button">Cargar</button>
+        </fieldset>
+      </form>
+      <p class="error"></p>
+      <section class="results_ctn">
+        <article>
+          <h3>BMEP</h3>
+          <p class="bmep">0</p>
+        </article>
+        <article>
+          <h3>Fuel (LB)</h3>
+          <p class="fuel">0</p>
+        </article>
+        <article>
+          <h3>RPM</h3>
+          <p class="rpm">0</p>
+        </article>
+        <article>
+          <h3>DIAS</h3>
+          <p class="dias">0</p>
+        </article>
+        <article>
+          <h3>Tiempo Estimado</h3>
+          <p class="time">00h:00m</p>
+        </article>
+        <article>
+          <h3>TAS</h3>
+          <p class="tas">0</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <h3>With Love ❤️ JaamDev</h3>
+      <a href="https://github.com/jaamdev" target="_blank" rel="noopener noreferrer">
+        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>¡Visita mi GitHub!</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+    </footer>
+  </body>
+</html>
