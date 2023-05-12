@@ -219,7 +219,7 @@ function setSuccess(message){
 		errorDisplay.innerHTML = message
 		errorDisplay.classList.add('success')
 	}else{
-		errorDisplay.innerHTML = ""
+		errorDisplay.innerHTML = "errores"
 		errorDisplay.classList.remove('success')
 	}
 
@@ -232,7 +232,7 @@ function setError(error){
 		errorDisplay.innerHTML = error
 		errorDisplay.classList.add('active')
 	}else{
-		errorDisplay.innerHTML = ""
+		errorDisplay.innerHTML = "errores"
 		errorDisplay.classList.remove('active')
 	}
 

@@ -121,15 +121,26 @@ option:disabled{
 	background-color: #f00;
 }
 
+.error_ctn {
+	margin: 0.5rem auto;
+	width: 100%;
+	border-radius: 0.2rem;
+	user-select: none;
+}
+
 .error {
-	margin: 1rem auto;
-	padding: 0.5rem 1rem;
-	color: #fff;
-	background-color: transparent;
+	padding: 0.5rem;
+	color: var(--color-primary);
+	background-color: var(--color-primary);
 	font-size: 1.5em;
 	font-weight: bold;
 	letter-spacing: 0.1rem;
 	border-radius: 0.2rem;
+}
+
+.error.active,
+.error.success {
+	color: #fff;
 }
 
 .error.active {
@@ -138,7 +149,7 @@ option:disabled{
 }
 
 .error.success {
-	background-color: green;
+	background-color: #009100;
 }
 
 @keyframes error {
