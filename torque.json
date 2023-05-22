@@ -1,7 +1,7 @@
 {
 	"th1240": {
-		"altura0": {
-			"altura": 0,
+		"altitud0": {
+			"altitud": 0,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -12,8 +12,8 @@
 			"peso1": {"dias": 232, "tas": 238},
 			"peso0": {"dias": 232, "tas": 239}
 		},
-		"altura1": {
-			"altura": 1,
+		"altitud1": {
+			"altitud": 1,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -24,8 +24,8 @@
 			"peso1": {"dias": 231, "tas": 241},
 			"peso0": {"dias": 232, "tas": 242}
 		},
-		"altura2": {
-			"altura": 2,
+		"altitud2": {
+			"altitud": 2,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -36,8 +36,8 @@
 			"peso1": {"dias": 229, "tas": 243},
 			"peso0": {"dias": 230, "tas": 244}
 		},
-		"altura3": {
-			"altura": 3,
+		"altitud3": {
+			"altitud": 3,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -48,8 +48,8 @@
 			"peso1": {"dias": 228, "tas": 245},
 			"peso0": {"dias": 229, "tas": 246}
 		},
-		"altura4": {
-			"altura": 4,
+		"altitud4": {
+			"altitud": 4,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -60,8 +60,8 @@
 			"peso1": {"dias": 226, "tas": 247},
 			"peso0": {"dias": 228, "tas": 249}
 		},
-		"altura5": {
-			"altura": 5,
+		"altitud5": {
+			"altitud": 5,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -72,8 +72,8 @@
 			"peso1": {"dias": 225, "tas": 250},
 			"peso0": {"dias": 227, "tas": 252}
 		},
-		"altura6": {
-			"altura": 6,
+		"altitud6": {
+			"altitud": 6,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -84,8 +84,8 @@
 			"peso1": {"dias": 225, "tas": 252},
 			"peso0": {"dias": 225, "tas": 253}
 		},
-		"altura7": {
-			"altura": 7,
+		"altitud7": {
+			"altitud": 7,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -96,8 +96,8 @@
 			"peso1": {"dias": 223, "tas": 254},
 			"peso0": {"dias": 225, "tas": 256}
 		},
-		"altura8": {
-			"altura": 8,
+		"altitud8": {
+			"altitud": 8,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -108,8 +108,8 @@
 			"peso1": {"dias": 221, "tas": 257},
 			"peso0": {"dias": 224, "tas": 258}
 		},
-		"altura9": {
-			"altura": 9,
+		"altitud9": {
+			"altitud": 9,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -120,8 +120,8 @@
 			"peso1": {"dias": 220, "tas": 259},
 			"peso0": {"dias": 223, "tas": 261}
 		},
-		"altura10": {
-			"altura": 10,
+		"altitud10": {
+			"altitud": 10,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -132,8 +132,8 @@
 			"peso1": {"dias": 219, "tas": 262},
 			"peso0": {"dias": 221, "tas": 264}
 		},
-		"altura11": {
-			"altura": 11,
+		"altitud11": {
+			"altitud": 11,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -144,8 +144,8 @@
 			"peso1": {"dias": 218, "tas": 265},
 			"peso0": {"dias": 220, "tas": 266}
 		},
-		"altura12": {
-			"altura": 12,
+		"altitud12": {
+			"altitud": 12,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -156,8 +156,8 @@
 			"peso1": {"dias": 218, "tas": 267},
 			"peso0": {"dias": 218, "tas": 269}
 		},
-		"altura13": {
-			"altura": 13,
+		"altitud13": {
+			"altitud": 13,
 			"rpm": 2260,
 			"bmep": 155,
 			"lbhr": 623,
@@ -168,8 +168,8 @@
 			"peso1": {"dias": 217, "tas": 270},
 			"peso0": {"dias": 218, "tas": 271}
 		},
-		"altura14": {
-			"altura": 14,
+		"altitud14": {
+			"altitud": 14,
 			"rpm": 2300,
 			"bmep": 152,
 			"lbhr": 631,
@@ -182,8 +182,8 @@
 		}
 	},
 	"th1200": {
-		"altura0": {
-			"altura": 0,
+		"altitud0": {
+			"altitud": 0,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -194,8 +194,8 @@
 			"peso1": {"dias": 229, "tas": 236},
 			"peso0": {"dias": 231, "tas": 237}
 		},
-		"altura1": {
-			"altura": 1,
+		"altitud1": {
+			"altitud": 1,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -206,8 +206,8 @@
 			"peso1": {"dias": 227, "tas": 238},
 			"peso0": {"dias": 229, "tas": 239}
 		},
-		"altura2": {
-			"altura": 2,
+		"altitud2": {
+			"altitud": 2,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -218,8 +218,8 @@
 			"peso1": {"dias": 226, "tas": 240},
 			"peso0": {"dias": 228, "tas": 241}
 		},
-		"altura3": {
-			"altura": 3,
+		"altitud3": {
+			"altitud": 3,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -230,8 +230,8 @@
 			"peso1": {"dias": 225, "tas": 242},
 			"peso0": {"dias": 226, "tas": 244}
 		},
-		"altura4": {
-			"altura": 4,
+		"altitud4": {
+			"altitud": 4,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -242,8 +242,8 @@
 			"peso1": {"dias": 224, "tas": 245},
 			"peso0": {"dias": 225, "tas": 245}
 		},
-		"altura5": {
-			"altura": 5,
+		"altitud5": {
+			"altitud": 5,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -254,8 +254,8 @@
 			"peso1": {"dias": 222, "tas": 246},
 			"peso0": {"dias": 224, "tas": 248}
 		},
-		"altura6": {
-			"altura": 6,
+		"altitud6": {
+			"altitud": 6,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -266,8 +266,8 @@
 			"peso1": {"dias": 221, "tas": 249},
 			"peso0": {"dias": 223, "tas": 251}
 		},
-		"altura7": {
-			"altura": 7,
+		"altitud7": {
+			"altitud": 7,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -278,8 +278,8 @@
 			"peso1": {"dias": 219, "tas": 252},
 			"peso0": {"dias": 221, "tas": 252}
 		},
-		"altura8": {
-			"altura": 8,
+		"altitud8": {
+			"altitud": 8,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -290,8 +290,8 @@
 			"peso1": {"dias": 218, "tas": 253},
 			"peso0": {"dias": 220, "tas": 255}
 		},
-		"altura9": {
-			"altura": 9,
+		"altitud9": {
+			"altitud": 9,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -302,8 +302,8 @@
 			"peso1": {"dias": 217, "tas": 256},
 			"peso0": {"dias": 218, "tas": 258}
 		},
-		"altura10": {
-			"altura": 10,
+		"altitud10": {
+			"altitud": 10,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -314,8 +314,8 @@
 			"peso1": {"dias": 216, "tas": 258},
 			"peso0": {"dias": 218, "tas": 260}
 		},
-		"altura11": {
-			"altura": 11,
+		"altitud11": {
+			"altitud": 11,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -326,8 +326,8 @@
 			"peso1": {"dias": 215, "tas": 261},
 			"peso0": {"dias": 217, "tas": 263}
 		},
-		"altura12": {
-			"altura": 12,
+		"altitud12": {
+			"altitud": 12,
 			"rpm": 2190,
 			"bmep": 155,
 			"lbhr": 584,
@@ -338,8 +338,8 @@
 			"peso1": {"dias": 214, "tas": 264},
 			"peso0": {"dias": 216, "tas": 265}
 		},
-		"altura13": {
-			"altura": 13,
+		"altitud13": {
+			"altitud": 13,
 			"rpm": 2220,
 			"bmep": 153,
 			"lbhr": 590,
@@ -350,8 +350,8 @@
 			"peso1": {"dias": 212, "tas": 265},
 			"peso0": {"dias": 214, "tas": 268}
 		},
-		"altura14": {
-			"altura": 14,
+		"altitud14": {
+			"altitud": 14,
 			"rpm": 2270,
 			"bmep": 150,
 			"lbhr": 599,
@@ -362,8 +362,8 @@
 			"peso1": {"dias": 212, "tas": 268},
 			"peso0": {"dias": 213, "tas": 271}
 		},
-		"altura15": {
-			"altura": 15,
+		"altitud15": {
+			"altitud": 15,
 			"rpm": 2300,
 			"bmep": 147,
 			"lbhr": 608,
@@ -374,8 +374,8 @@
 			"peso1": {"dias": 210, "tas": 271},
 			"peso0": {"dias": 212, "tas": 273}
 		},
-		"altura16": {
-			"altura": 16,
+		"altitud16": {
+			"altitud": 16,
 			"rpm": 2260,
 			"bmep": 150,
 			"lbhr": 623,
@@ -386,8 +386,8 @@
 			"peso1": {"dias": 209, "tas": 273},
 			"peso0": {"dias": 211, "tas": 276}
 		},
-		"altura17": {
-			"altura": 17,
+		"altitud17": {
+			"altitud": 17,
 			"rpm": 2260,
 			"bmep": 150,
 			"lbhr": 623,
@@ -398,8 +398,8 @@
 			"peso1": {"dias": 207, "tas": 276},
 			"peso0": {"dias": 210, "tas": 278}
 		},
-		"altura18": {
-			"altura": 18,
+		"altitud18": {
+			"altitud": 18,
 			"rpm": 2260,
 			"bmep": 150,
 			"lbhr": 623,
@@ -410,8 +410,8 @@
 			"peso1": {"dias": 206, "tas": 279},
 			"peso0": {"dias": 208, "tas": 281}
 		},
-		"altura19": {
-			"altura": 19,
+		"altitud19": {
+			"altitud": 19,
 			"rpm": 2260,
 			"bmep": 150,
 			"lbhr": 623,
@@ -422,8 +422,8 @@
 			"peso1": {"dias": 205, "tas": 282},
 			"peso0": {"dias": 207, "tas": 285}
 		},
-		"altura20": {
-			"altura": 20,
+		"altitud20": {
+			"altitud": 20,
 			"rpm": 2300,
 			"bmep": 147,
 			"lbhr": 633,
@@ -436,8 +436,8 @@
 		}
 	},
 	"th1100": {
-		"altura0": {
-			"altura": 0,
+		"altitud0": {
+			"altitud": 0,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -448,8 +448,8 @@
 			"peso1": {"dias": 222, "tas": 228},
 			"peso0": {"dias": 224, "tas": 229}
 		},
-		"altura1": {
-			"altura1": 1,
+		"altitud1": {
+			"altitud1": 1,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -460,8 +460,8 @@
 			"peso1": {"dias": 221, "tas": 230},
 			"peso0": {"dias": 222, "tas": 232}
 		},
-		"altura2": {
-			"altura": 2,
+		"altitud2": {
+			"altitud": 2,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -472,8 +472,8 @@
 			"peso1": {"dias": 219, "tas": 232},
 			"peso0": {"dias": 221, "tas": 233}
 		},
-		"altura3": {
-			"altura": 3,
+		"altitud3": {
+			"altitud": 3,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -484,8 +484,8 @@
 			"peso1": {"dias": 218, "tas": 234},
 			"peso0": {"dias": 220, "tas": 236}
 		},
-		"altura4": {
-			"altura": 4,
+		"altitud4": {
+			"altitud": 4,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -496,8 +496,8 @@
 			"peso1": {"dias": 217, "tas": 237},
 			"peso0": {"dias": 218, "tas": 238}
 		},
-		"altura5": {
-			"altura": 5,
+		"altitud5": {
+			"altitud": 5,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -508,8 +508,8 @@
 			"peso1": {"dias": 216, "tas": 238},
 			"peso0": {"dias": 218, "tas": 241}
 		},
-		"altura6": {
-			"altura": 6,
+		"altitud6": {
+			"altitud": 6,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -520,8 +520,8 @@
 			"peso1": {"dias": 215, "tas": 241},
 			"peso0": {"dias": 217, "tas": 243}
 		},
-		"altura7": {
-			"altura": 7,
+		"altitud7": {
+			"altitud": 7,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -532,8 +532,8 @@
 			"peso1": {"dias": 213, "tas": 243},
 			"peso0": {"dias": 215, "tas": 245}
 		},
-		"altura8": {
-			"altura": 8,
+		"altitud8": {
+			"altitud": 8,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -544,8 +544,8 @@
 			"peso1": {"dias": 212, "tas": 245},
 			"peso0": {"dias": 214, "tas": 247}
 		},
-		"altura9": {
-			"altura": 9,
+		"altitud9": {
+			"altitud": 9,
 			"rpm": 2010,
 			"bmep": 155,
 			"lbhr": 500,
@@ -556,8 +556,8 @@
 			"peso1": {"dias": 211, "tas": 248},
 			"peso0": {"dias": 212, "tas": 250}
 		},
-		"altura10": {
-			"altura": 10,
+		"altitud10": {
+			"altitud": 10,
 			"rpm": 2030,
 			"bmep": 153,
 			"lbhr": 503,
@@ -568,8 +568,8 @@
 			"peso1": {"dias": 210, "tas": 250},
 			"peso0": {"dias": 212, "tas": 252}
 		},
-		"altura11": {
-			"altura": 11,
+		"altitud11": {
+			"altitud": 11,
 			"rpm": 2070,
 			"bmep": 150,
 			"lbhr": 509,
@@ -580,8 +580,8 @@
 			"peso1": {"dias": 209, "tas": 252},
 			"peso0": {"dias": 211, "tas": 254}
 		},
-		"altura12": {
-			"altura": 12,
+		"altitud12": {
+			"altitud": 12,
 			"rpm": 2110,
 			"bmep": 147,
 			"lbhr": 515,
@@ -592,8 +592,8 @@
 			"peso1": {"dias": 207, "tas": 255},
 			"peso0": {"dias": 209, "tas": 257}
 		},
-		"altura13": {
-			"altura": 13,
+		"altitud13": {
+			"altitud": 13,
 			"rpm": 2150,
 			"bmep": 145,
 			"lbhr": 520,
@@ -604,8 +604,8 @@
 			"peso1": {"dias": 206, "tas": 257},
 			"peso0": {"dias": 208, "tas": 258}
 		},
-		"altura14": {
-			"altura": 14,
+		"altitud14": {
+			"altitud": 14,
 			"rpm": 2190,
 			"bmep": 142,
 			"lbhr": 526,
@@ -616,8 +616,8 @@
 			"peso1": {"dias": 205, "tas": 259},
 			"peso0": {"dias": 207, "tas": 261}
 		},
-		"altura15": {
-			"altura": 15,
+		"altitud15": {
+			"altitud": 15,
 			"rpm": 2230,
 			"bmep": 139,
 			"lbhr": 532,
@@ -628,8 +628,8 @@
 			"peso1": {"dias": 204, "tas": 262},
 			"peso0": {"dias": 205, "tas": 264}
 		},
-		"altura16": {
-			"altura": 16,
+		"altitud16": {
+			"altitud": 16,
 			"rpm": 2260,
 			"bmep": 137,
 			"lbhr": 537,
@@ -640,8 +640,8 @@
 			"peso1": {"dias": 202, "tas": 264},
 			"peso0": {"dias": 205, "tas": 266}
 		},
-		"altura17": {
-			"altura": 17,
+		"altitud17": {
+			"altitud": 17,
 			"rpm": 2070,
 			"bmep": 150,
 			"lbhr": 543,
@@ -652,8 +652,8 @@
 			"peso1": {"dias": 201, "tas": 266},
 			"peso0": {"dias": 203, "tas": 269}
 		},
-		"altura18": {
-			"altura": 18,
+		"altitud18": {
+			"altitud": 18,
 			"rpm": 2120,
 			"bmep": 147,
 			"lbhr": 547,
@@ -664,8 +664,8 @@
 			"peso1": {"dias": 199, "tas": 269},
 			"peso0": {"dias": 202, "tas": 271}
 		},
-		"altura19": {
-			"altura": 19,
+		"altitud19": {
+			"altitud": 19,
 			"rpm": 2170,
 			"bmep": 143,
 			"lbhr": 550,
@@ -676,8 +676,8 @@
 			"peso1": {"dias": 198, "tas": 271},
 			"peso0": {"dias": 200, "tas": 274}
 		},
-		"altura20": {
-			"altura": 20,
+		"altitud20": {
+			"altitud": 20,
 			"rpm": 2220,
 			"bmep": 140,
 			"lbhr": 554,
@@ -688,8 +688,8 @@
 			"peso1": {"dias": 197, "tas": 274},
 			"peso0": {"dias": 199, "tas": 278}
 		},
-		"altura21": {
-			"altura": 21,
+		"altitud21": {
+			"altitud": 21,
 			"rpm": 2280,
 			"bmep": 136,
 			"lbhr": 557,

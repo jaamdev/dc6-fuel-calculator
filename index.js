@@ -69,7 +69,7 @@ function validate(e){
 	const fields = Object.fromEntries(new FormData(e.target))
 	const torque = fields.torque
 	const distancia = Number(fields.distancia)
-	const altura = Number(fields.altura)
+	const altitud = Number(fields.altitud)
 	const peso = Number(fields.peso)
 	const alternativo = Number(fields.alternativo)
 	const reserva = Number(fields.reserva)
@@ -89,39 +89,39 @@ function validate(e){
 		return setError("El peso es demasiado alto.")
 	}
 	if(
-		altura > 14 && torque === "th1240" ||
-		altura > 20 && torque === "th1200" ||
-		altura > 21 && torque === "th1100"
+		altitud > 14 && torque === "th1240" ||
+		altitud > 20 && torque === "th1200" ||
+		altitud > 21 && torque === "th1100"
 		){
-		return setError("Demasiada altura para el BHP seleccionado.")
+		return setError("Demasiada altitud para el BHP seleccionado.")
 	}
 
-	const fuelValue = calcFuel(torque, distancia, altura, peso, alternativo, reserva)
+	const fuelValue = calcFuel(torque, distancia, altitud, peso, alternativo, reserva)
 
-	const [rpmValue, bmepValue ] = getRpmBmep(torque, altura)
+	const [rpmValue, bmepValue ] = getRpmBmep(torque, altitud)
 
-	const { dias: diasValue, tas: tasValue } = getSpeed(torque, altura, peso)
+	const { dias: diasValue, tas: tasValue } = getSpeed(torque, altitud, peso)
 
-	const time = getTime(torque, distancia, altura, peso)
+	const time = getTime(torque, distancia, altitud, peso)
 
 	const results = { rpmValue, fuelValue, bmepValue, diasValue, tasValue, time}
 
 	setResult(results)
 }
 
-function calcFuel(torque, distancia, altura, peso, alternativo, reserva){
+function calcFuel(torque, distancia, altitud, peso, alternativo, reserva){
 	const winds = 0.25
 	const reserve = reserva
-	const { tas } = getSpeed(torque, altura, peso)
-	const fuelRatio = getFuel(torque, altura)
+	const { tas } = getSpeed(torque, altitud, peso)
+	const fuelRatio = getFuel(torque, altitud)
 
 	const result = ((distancia / tas) + winds + reserve + (alternativo / 180)) * fuelRatio
 
 	return Math.trunc(result)
 }
 
-function getSpeed(torque, altura, peso){
-	const altitud = "altura" + altura
+function getSpeed(torque, altitudes, peso){
+	const altitud = "altitud" + altitudes
 
 	if(peso >= 67_500 && peso <= 72_500){
 		return {
@@ -164,13 +164,13 @@ function getSpeed(torque, altura, peso){
 	}
 }
 
-function getFuel(torque, altura){
-	const altitud = "altura" + altura
+function getFuel(torque, altitudes){
+	const altitud = "altitud" + altitudes
 	return torqueData[torque][altitud].lbhr * 4
 }
 
-function getRpmBmep(torque, altura){
-	const altitud = "altura" + altura
+function getRpmBmep(torque, altitudes){
+	const altitud = "altitud" + altitudes
 	const rpmBmepValues = [
 		torqueData[torque][altitud].rpm,
 		torqueData[torque][altitud].bmep
@@ -178,8 +178,8 @@ function getRpmBmep(torque, altura){
 	return rpmBmepValues
 }
 
-function getTime(torque, distancia, altura, peso){
-	const { tas } = getSpeed(torque, altura, peso)
+function getTime(torque, distancia, altitud, peso){
+	const { tas } = getSpeed(torque, altitud, peso)
 	const timeArray = (distancia / tas).toFixed(2).split(".")
 	const hours = timeArray[0]
 	const minutes = String(Math.trunc(("0." + timeArray[1]) * 60))
